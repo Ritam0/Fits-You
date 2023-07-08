@@ -1,27 +1,28 @@
 import React from 'react'
 import Gym from './Gym'
+import Navbar from "./Navbar";
 import { NavLink } from 'react-router-dom';
 import logo from './img/logo.png';
 import gym from './img/gym.jpg';
 import yoga from './img/yoga.jpg';
 import nutration from './img/nutration.jpg';
 import meditation from './img/meditation.jpg';
-import ritam from './img/ritam.jpeg';
-import bibhab from './img/bibhab.jpeg';
 import 'bootstrap/dist/css/bootstrap.css';
 import './Home.css';
 
 
 const Home = () => {
  
-
   return (
-    <div>
+   
 
-<div className="container">
+    <div className='Home-page-bg'>
+      <Navbar/>
+    <div className="container">
       <img className="logo" src={logo} alt="Logo" />
       
       <div className="slogan"><h2 className="hey">Hey Supersoul</h2>Welcome to FitsYou</div>
+      <div className="slogan2">Look At Our Awesome <h4>Programs</h4></div>
       <div className="programs">
         <div className="program">
           <h3>Gym</h3>
@@ -57,7 +58,6 @@ const Home = () => {
       </div>
       </div>
     </div>
-    
   )
 }
 
