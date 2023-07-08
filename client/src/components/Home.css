@@ -1,0 +1,117 @@
+body {
+  background-image: url('https://images.pexels.com/photos/3760259/pexels-photo-3760259.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+}
+
+.logo {
+  margin-top: 200px;
+  width: 500px;
+  height: 200px;
+  padding: 10px;
+  transition: margin-top 0.3s ease, width 0.3s ease, height 0.3s ease, padding 0.3s ease;
+}
+
+.slogan {
+  font-size: 50px;
+  color: #d2f1a4c9;
+  font-family: 'Caprasimo', cursive;
+  transition: font-size 0.3s ease, color 0.3s ease, font-family 0.3s ease;
+}
+
+.slogan h2 {
+  font-size: 80px;
+  color: #819200cc;
+  font-family: 'Caprasimo', cursive;
+  transition: font-size 0.3s ease, color 0.3s ease, font-family 0.3s ease;
+}
+
+.programs {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 50px;
+}
+
+.program {
+  background-color: #dac7c7;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.program h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: rgb(2, 100, 2);
+}
+
+.program-img {
+  margin-bottom: 10px;
+}
+
+.program-img img {
+  width: 200px;
+  height: 200px;
+}
+
+.program p {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.program button {
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.program button:hover {
+  background-color: #555;
+}
+
+/* Media Queries */
+
+@media (max-width: 768px) {
+  body {
+    background-image: url('./img/hbmedia.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  }
+  .container{
+    margin-top: 550px;
+  }
+  .programs {
+    flex-direction: column;
+  }
+
+  .program {
+    margin-bottom: 20px;
+  }
+
+  .program-img img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+
+
+
+ 

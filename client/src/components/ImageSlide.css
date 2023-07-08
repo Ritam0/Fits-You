@@ -1,0 +1,11 @@
+.sliderCard{
+    width:1100px;
+    height:620px;
+    margin: auto;
+    background-color: antiquewhite;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.btn:hover{
+    width: 50px;
+}
