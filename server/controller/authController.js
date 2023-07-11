@@ -13,6 +13,7 @@ const signup=async (req,res,next)=>{
             success:false,
             message:"password and confirm password must be same"
         })
+        
     }
     const validEmail = validator.isEmail(email);
     if(!validEmail){

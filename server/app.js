@@ -10,7 +10,7 @@ app.use(express.json());
 app.use(cookieparser());
 
 
-app.use('/api/auth',authRouter);
+app.use('/',authRouter);
 app.use('/',(req,res)=>{
     return res.status(200).json({data:"My server"});
 })

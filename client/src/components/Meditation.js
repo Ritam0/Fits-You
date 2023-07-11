@@ -2,7 +2,7 @@ import React from 'react'
 import Navbar from "./Navbar";
 import 'bootstrap/dist/css/bootstrap.css';
 import './Meditation.css';
-const Meditation = () => {
+const Meditation = () => { 
   return (
     <div className='Med_bg'>
       <Navbar/>

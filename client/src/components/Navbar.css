@@ -30,9 +30,9 @@
   
   .navbar li:hover {
     font-size: larger;
-    padding: 10px;
-    border: 1px solid rgb(0, 0, 0);
-    border-radius: 25%;
+    padding: 5px;
+    border-bottom: 5px solid rgb(26, 205, 255);
+    border-radius: 5%;
   }
   
   .navbar a {
@@ -64,8 +64,8 @@
   
     .navbar li:hover {
       font-size: large;
-      padding: 5px;
-      border: 1px solid rgb(177, 161, 161);
-      border-radius: 25%;
+      padding: 2px;
+      border-bottom: 5px solid rgb(11, 255, 198);
+      border-radius: 5%;
     }
   }
