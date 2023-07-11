@@ -1,0 +1,108 @@
+.container_Gym {
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 20px;
+  }
+  .Gym_bg{
+        background-image: url('https://images.pexels.com/photos/1229356/pexels-photo-1229356.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+      
+  }
+  
+  .section_Gym {
+    margin-bottom: 20px;
+    padding: 40px;
+  }
+  
+  .music_section_Gym {
+    background-color: #f2f2f297;
+    padding: 40px;
+  }
+  
+  .section_title_Gym {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .program_section_Gym {
+    background-color: #ffffffa6;
+    padding: 40px;
+  }
+  
+  .program_cards_row_Gym {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .program_card_Gym {
+    width: calc(33.33% - 10px);
+    background-color: #f2f2f2a4;
+    height: 200px;
+  }
+  
+  .mentor_section_Gym {
+    background-color: #f2f2f2a8;
+    padding: 40px;
+  }
+  
+  .mentor_cards_row_Gym {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .mentor_card_Gym {
+    width: calc(33.33% - 10px);
+    background-color: #ffffffa4;
+    height: 200px;
+  }
+  
+  .basic {
+    background-color: #f2f2f2ad;
+    text-align: center;
+  }
+  
+  .section_description_Gym {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .section_button_Gym {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .section_button_Gym:hover {
+    background-color: #c4cad1c3;
+    color: #000000;
+  }
+  
+  @media (max-width: 768px) {
+    .container_Gym {
+      padding: 10px;
+    }
+  
+    .section_Gym {
+      padding: 20px;
+    }
+  
+    .program_cards_row_Gym,
+    .mentor_cards_row_Gym {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  
+    .program_card_Gym,
+    .mentor_card_Gym {
+      width: calc(50% - 10px);
+    }
+  }
+  
