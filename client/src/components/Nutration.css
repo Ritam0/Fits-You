@@ -1,0 +1,108 @@
+.container_Nutrition {
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 20px;
+  }
+  .Nutrition_bg{
+        background-image: url('https://images.pexels.com/photos/1295572/pexels-photo-1295572.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+      
+  }
+  
+  .section_Nutrition {
+    margin-bottom: 20px;
+    padding: 40px;
+  }
+  
+  .music_section_Nutrition {
+    background-color: #f2f2f297;
+    padding: 40px;
+  }
+  
+  .section_title_Nutrition {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .program_section_Nutrition {
+    background-color: #ffffffa6;
+    padding: 40px;
+  }
+  
+  .program_cards_row_Nutrition {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .program_card_Nutrition {
+    width: calc(33.33% - 10px);
+    background-color: #f2f2f2a4;
+    height: 200px;
+  }
+  
+  .mentor_section_Nutrition {
+    background-color: #f2f2f2a8;
+    padding: 40px;
+  }
+  
+  .mentor_cards_row_Nutrition {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .mentor_card_Nutrition {
+    width: calc(33.33% - 10px);
+    background-color: #ffffffa4;
+    height: 200px;
+  }
+  
+  .basic {
+    background-color: #f2f2f2ad;
+    text-align: center;
+  }
+  
+  .section_description_Nutrition {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .section_button_Nutrition {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .section_button_Nutrition:hover {
+    background-color: #c4cad1c3;
+    color: #000000;
+  }
+  
+  @media (max-width: 768px) {
+    .container_Nutrition {
+      padding: 10px;
+    }
+  
+    .section_Nutrition {
+      padding: 20px;
+    }
+  
+    .program_cards_row_Nutrition,
+    .mentor_cards_row_Nutrition {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  
+    .program_card_Nutrition,
+    .mentor_card_Nutrition {
+      width: calc(50% - 10px);
+    }
+  }
+  
