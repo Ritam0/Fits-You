@@ -6,6 +6,7 @@ const Yoga = () => {
     <div>
       
       <Navbar/>
+      <h1>welcome</h1>
     </div>
   )
 }
