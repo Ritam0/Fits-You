@@ -89,7 +89,7 @@ const Registration = () => {
 
         </form>
         <div className="sections_reg">
-          <span className="already-registered_reg">Already Registered? <a href="#">signin</a></span>
+          <span className="already-registered_reg">Already Registered? <a href="./login">signin</a></span>
         </div>
       </div>
     </div>

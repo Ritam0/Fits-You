@@ -1,6 +1,7 @@
 const JWT=require('jsonwebtoken');
+const userModel = require('../model/userSchema');
 
-const jwtAuth=(req,res,next)=>{
+const jwtAuth= (req,res,next)=>{
     const token=(req.cookies && req.cookies.token) || null;
     if(!token){
         return res.status(400).json({
@@ -10,7 +11,10 @@ const jwtAuth=(req,res,next)=>{
     }
     try{
         const payload=JWT.verify(token,process.env.SECRET);
-        req.user={id:payload.id,email:payload.id};
+        const rootUser= {id:payload.id,email:payload.email};
+        req.rootUser=rootUser;
+        req.token=token;
+        req.userId=rootUser._id;
     }catch(e){
         return res.status(400).json({
             success:false,

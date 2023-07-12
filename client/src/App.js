@@ -8,6 +8,7 @@ import Meditation from "./components/Meditation";
 import Registration from "./components/Registration";
 import Login from "./components/Login";
 import About from "./components/About";
+import Profile from "./components/MyProfile";
 
 
 
@@ -24,6 +25,7 @@ const App = () =>  {
               <Route path="/about" element={<About/>}/>
               <Route path="/registration" element={<Registration/>}/>
               <Route path="/login" element={<Login/>}/>
+              <Route path="/profile" element={<Profile/>}/>
         
        </Routes>
         

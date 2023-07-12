@@ -29,14 +29,14 @@
   }
   
   .navbar li:hover {
-    font-size: larger;
-    padding: 5px;
-    border-bottom: 5px solid rgb(26, 205, 255);
-    border-radius: 5%;
-  }
-  
-  .navbar a {
+    
     font-size: large;
+    padding: 3px;
+  }
+ 
+  
+  .navbar {
+    font-size: medium;
     color: #f6f5f9;
     text-decoration: none;
     
@@ -65,7 +65,6 @@
     .navbar li:hover {
       font-size: large;
       padding: 2px;
-      border-bottom: 5px solid rgb(11, 255, 198);
       border-radius: 5%;
     }
   }

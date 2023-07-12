@@ -4,6 +4,7 @@
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+    height: 100vh;
   
 }
 
@@ -32,10 +33,10 @@ p {
   margin-bottom: 10px;
 }
 
-.active {
+/* .active {
   display: block;
   animation: slide-down 0.3s ease-in-out;
-}
+} */
 
 @keyframes slide-down {
   from {
@@ -46,4 +47,14 @@ p {
     opacity: 1;
     transform: translateY(0);
   }
+}
+
+
+@media (max-width: 768px) {
+  .About_bg{
+   
+    height: 100%;
+  
+}
+
 }

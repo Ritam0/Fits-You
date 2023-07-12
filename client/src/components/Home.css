@@ -1,9 +1,6 @@
-body {
-  margin: 0;
-  padding: 0;
-}
+
 .Home-page-bg {
-  background-image: url('https://images.pexels.com/photos/3760259/pexels-photo-3760259.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+  background-image: url('https://images.pexels.com/photos/7187891/pexels-photo-7187891.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -29,30 +26,29 @@ body {
 
 .slogan {
   font-size: 50px;
-  color: #00f2ffe2;
-  font-family: 'Caprasimo', cursive;
+  color: #51ff00e2;
+  font-weight: bolder;
   transition: font-size 0.3s ease, color 0.3s ease, font-family 0.3s ease;
 }
 .slogan2 {
   font-size: 30px;
   border-radius: 10px;
-  color: #1a8666;
-  font-family: 'Caprasimo', cursive;
+  color: #fff200;
+  font-weight: bolder;
   transition: font-size 0.3s ease, color 0.3s ease, font-family 0.3s ease;
 }
 .slogan2 h4{
   font-size: 30px;
   border-radius: 10px;
-  background-color: yellow;
-  color: #0a4936e2;
-  font-family: 'Caprasimo', cursive;
+  font-weight: bold;
+  color: #fff200;
   transition: font-size 0.3s ease, color 0.3s ease, font-family 0.3s ease;
 }
 
 .slogan h2 {
   font-size: 80px;
-  color: #00ffaef0;
-  font-family: 'Caprasimo', cursive;
+  color: #00ffeefa;
+  font-weight: bolder;
   transition: font-size 0.3s ease, color 0.3s ease, font-family 0.3s ease;
 }
 
@@ -101,6 +97,13 @@ body {
 
 .program button:hover {
   background-color: #555;
+}
+.active{
+  border-bottom: 5px solid rgb(26, 205, 255);
+  border-radius: 5%;
+}
+.hey{
+  font-size: larger;
 }
 
 /* Media Queries */

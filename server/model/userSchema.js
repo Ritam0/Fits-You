@@ -22,7 +22,7 @@ const userSchema=new Schema({
     },
     cpassword:{
         type:String
-    }
+    },
 })
 
 //*********************Hash password and confirm password*******************

@@ -92,21 +92,23 @@ const signin=async (req,res)=>{
 
 // *****************************************userinfo********************************************
 
-const getUser=async (req,res,next)=>{
-    const userId=req.user.id;
-    try{
-        const user= await userModel.findById(userId);
-        return res.status(200).json({
-            success:true,
-            data:user
-        })
-    }catch(e){
-        return res.status(400).json({
-            success:false,
-            message:e.message
-        })
+const getUser = async (req, res, next) => {
+    const userId = req.rootUser.id;
+    try {
+      const user = await userModel.findById(userId);
+      console.log(user);
+      //res.send(req.user);
+      return res.status(200).json({
+        user
+      });
+    } catch (e) {
+      return res.status(400).json({
+        success: false,
+        message: e.message
+      });
     }
-}
+  };
+  
 
 // *****************************************logout********************************************
 

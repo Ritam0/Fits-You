@@ -1,5 +1,4 @@
 import React from 'react'
-import Gym from './Gym'
 import Navbar from "./Navbar";
 import { NavLink } from 'react-router-dom';
 import logo from './img/logo.png';
@@ -18,7 +17,7 @@ const Home = () => {
 
     <div className='Home-page-bg'>
       <Navbar/>
-    <div className="container">
+    <div className="container"> 
       <img className="logo" src={logo} alt="Logo" />
       
       <div className="slogan"><h2 className="hey">Hey Supersoul</h2>Welcome to FitsYou</div>
