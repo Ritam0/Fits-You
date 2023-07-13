@@ -8,4 +8,4 @@ const databaseConnect=()=>{
     .then(()=>console.log('connected'))
     .catch((err)=>console.log('error in databaseConnect'));
 }
-module.exports=databaseConnect;
+module.exports=databaseConnect; 
