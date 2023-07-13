@@ -14,8 +14,9 @@ const Meditation = () => {
         <p className="section_description_med">"Meditation should not be a torture. It must be fun! Start small. 
           Five to ten minutes a day is a great start!" <span className='sandeep'>- Sandeep Maheshwari
         </span></p>
-        <button className="section_button_med">Start Meditation</button>
+        <a href="https://rzp.io/l/nzskN8j" target='_blank'><button className="section_button_med">Start Meditation - Paid Training Program</button></a>
       </section>
+      
 
       
         <section className="section_med music_section_med">
@@ -117,17 +118,17 @@ const Meditation = () => {
         <div className="book_card_med">
           <img src="https://smritibookstall.com/uploads/media/2023/THINK_LIKE_MONK.jpg" alt="Book 1" />
           <h3 className="book_title_med">Think Like A Monk - Jay Shetty</h3>
-          <a href="https://www.amazon.in/Think-Like-Monk-Jay-Shetty/dp/0008386595/ref=sr_1_3?crid=16N6B2BSMARGM&keywords=Think+like+a+Monk&qid=1689254950&sprefix=think+like+a+monk%2Caps%2C498&sr=8-3" target='_blank'>Buying Link</a>
+          <a href="https://www.amazon.in/Think-Like-Monk-Jay-Shetty/dp/0008386595/ref=sr_1_3?crid=16N6B2BSMARGM&keywords=Think+like+a+Monk&qid=1689254950&sprefix=think+like+a+monk%2Caps%2C498&sr=8-3" target='_blank'>Best Buy Link</a>
         </div>
         <div className="book_card_med">
           <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdwDFCISIVg4ZJ5AuZdgtnLfhK7N3WCPtUy75x484wlpZz-XJ-MErvCgfEFYXECLfN1CM&usqp=CAU" alt="Book 2" />
           <h3 className="book_title_med">Bhagavad Gita As It Is</h3>
-          <a href="https://www.amazon.in/Bhagvad-gita-as-english-new/dp/9384564192/ref=sr_1_3?crid=21P69ENNGYUHV&keywords=bhagavad+gita+as+it+is&qid=1689255033&sprefix=bhagavad+gita+as+%2Caps%2C1007&sr=8-3" target='_blank'>Buying Link</a>
+          <a href="https://www.amazon.in/Bhagvad-gita-as-english-new/dp/9384564192/ref=sr_1_3?crid=21P69ENNGYUHV&keywords=bhagavad+gita+as+it+is&qid=1689255033&sprefix=bhagavad+gita+as+%2Caps%2C1007&sr=8-3" target='_blank'>Best Buy Link</a>
         </div>
         <div className="book_card_med">
           <img src="https://5.imimg.com/data5/SELLER/Default/2023/3/KZ/GT/KE/70587442/energize-your-mind.jpg" alt="Book 3" />
           <h3 className="book_title_med">Energize Your Mind - Gour Gopal Das</h3>
-          <a href="https://www.amazon.in/Energize-Your-Mind-Mastering-Thoughts/dp/0143442287/ref=sr_1_2?crid=32ZP1N3NJSUB2&keywords=energize+your+mind+gaur+gopal+das&qid=1689255102&sprefix=energize+your+min%2Caps%2C1460&sr=8-2" target='_blank'>Buying Link</a>
+          <a href="https://www.amazon.in/Energize-Your-Mind-Mastering-Thoughts/dp/0143442287/ref=sr_1_2?crid=32ZP1N3NJSUB2&keywords=energize+your+mind+gaur+gopal+das&qid=1689255102&sprefix=energize+your+min%2Caps%2C1460&sr=8-2" target='_blank'>Best Buy Link</a>
         </div>
       </div>
     </section>
