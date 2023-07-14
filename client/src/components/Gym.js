@@ -120,7 +120,7 @@ const Gym = () => {
             </div>
             </div>
         </section>
-        <section className="section_Gym program_section_Gym">
+      <section className="section_Gym program_section_Gym">
           <h2 className="section_title_Gym">Leg Workouts</h2>
           <div className="program_cards_row_Gym">
             <div className="program_card_Gym">
@@ -161,27 +161,32 @@ const Gym = () => {
             </div>
             </div>
         </section>
-        <section className="section_Gym powder_section_Gym">
-      <h2 className="section_title_Gym">Proteins To Grow Your Health's Energy</h2>
+        
+      <div className="protine_powder">
+
+      <h2 className="section_title_Gym">Proteins To Grow Your Energy</h2>
       <div className="powder_cards_row_Gym">
         <div className="powder_card_Gym">
-          <img src="https://m.media-amazon.com/images/I/71M-+lVqpOL._AC_SS130_.jpg" alt="Gym 1" />
-          <h3 className="Gym_title_Gym">Protinex Health And Nutritional Protein Drink Mix For Adults-(Original, 400 Gms, Jar) with Vital Nutrients to Support Recovery & Immunity</h3>
-          <a href="" target='_blank'>Best Buy Link</a>
+          <img src="https://m.media-amazon.com/images/I/41pOK1qMzAL._SX300_SY300_QL70_FMwebp_.jpg" alt="Gym 1" />
+          <h3 className="Gym_title_Gym">DELICIOUS CHOCOLATE FLAVOUR: Fulfil your protein intake with MuscleBlaze Beginner’s Whey Protein now available in Jar pack also. Enjoy protein shakes in a delicious chocolate flavour for muscle growth and quick post-workout recovery</h3>
+          <a href="https://www.amazon.in/MuscleBlaze-Beginners-Supplement-Recovery-Chocolate/dp/B09N7D6X1T/ref=asc_df_B09N7D6X1T/?tag=googleshopdes-21&linkCode=df0&hvadid=545204585900&hvpos=&hvnetw=g&hvrand=10114004413735847497&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9153239&hvtargid=pla-1547413886332&psc=1" target='_blank'>Best Buy Link</a>
         </div>
-        <div className="Gym_card_Gym">
-          <img src="https://images-eu.ssl-images-amazon.com/images/I/81bOrxfKi-L._AC_UL232_SR232,232_.jpg" alt="Gym 2" />
+        <div className="powder_card_Gym">
+          <img src="https://m.media-amazon.com/images/I/51L1IFlxr0L._SX300_SY300_QL70_FMwebp_.jpg" alt="Gym 2" />
           <h3 className="Gym_title_Gym">Protinex Health And Nutritional Protein Drink Mix For Adults-(Creamy Vanilla, 400 Gms, Jar) with 25 Vital Nutrients to Support Strength, Immunity & Active Life</h3>
-          <a href="" target='_blank'>Best Buy Link</a>
+          <a href="https://www.amazon.in/Protinex-400-g-Tasty-Chocolate/dp/B01MS489AE/ref=sr_1_1_sspa?crid=38TIZJWAT6OXP&keywords=Protinex+Health+And+Nutritional&qid=1689346576&s=hpc&sprefix=protinex+health+and+nutritional%2Chpc%2C395&sr=1-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1" target='_blank'>Best Buy Link</a>
         </div>
-        <div className="Gym_card_Gym">
-          <img src="https://images-eu.ssl-images-amazon.com/images/I/81RRScmZfzL._AC_UL160_SR160,160_.jpg" alt="Gym 3" />
-          <h3 className="Gym_title_Gym">Protinex Health And Nutritional Protein Drink Mix For Adults-(Rich Chocolate Flavor, 400 Gms, Jar) with 25 Vital Nutrients to Support Strength, Immunity & Active Life</h3>
-          <a href="" target='_blank'>Best Buy Link</a>
+        <div className="powder_card_Gym">
+          <img src="https://m.media-amazon.com/images/I/41hQS2KkzeL._SX300_SY300_QL70_FMwebp_.jpg" alt="Gym 3" />
+          <h3 className="Gym_title_Gym">Bolt Whey Protein Concentrate supercharged with Phycocyanin provides 25g pure protein per serving to enhance performance, support quick muscle recovery and fuel your body.</h3>
+          <a href="https://www.amazon.in/Bolt-Pistachio-PHYCOCYANIN-Recovery-Vegetarian/dp/B09YNXBLZ2/ref=sr_1_12?crid=UVR1Z1L5OPRF&keywords=protein%2Bpowder%2Bfor%2Bgym&qid=1689346683&s=hpc&sprefix=protine%2Bpowder%2Bfor%2Bgym%2Chpc%2C244&sr=1-12&th=1" target='_blank'>Best Buy Link</a>
         </div>
+    
       </div>
-    </section>
       </div>
+      </div>
+      
+    
     </div>
   )
 }

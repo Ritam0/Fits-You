@@ -114,7 +114,7 @@ const Yoga = () => {
               </div>
             </div>
 
-            <div className="program_card_yoga">
+            <div className="program_card_yoga"> 
               <div className="divimg_yoga">
                   <img src="https://www.artofliving.org/sites/www.artofliving.org/files/styles/original_image/public/wysiwyg_imageupload/Dhanurasana%20%28Bow%20Yoga%20Pose%29%20for%20kids%20and%20childrens.jpg.webp?itok=LixsLz_d" alt="img" />
                   <h3>Dhanurasana (Bow Pose)</h3>

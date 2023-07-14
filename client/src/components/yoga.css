@@ -1,150 +1,169 @@
 .container_yoga {
-    margin: 0 auto;
-    max-width: 1200px;
-    padding: 20px;
-  }
-  .yoga_bg{
-        background-image: url('https://images.pexels.com/photos/5384538/pexels-photo-5384538.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-        background-attachment: fixed;
-      
-  }
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 20px;
+}
+
+.yoga_bg {
+  background-image: url('https://images.pexels.com/photos/5384538/pexels-photo-5384538.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.section_yoga1 {
+  background-color: #f2f2f2ad;
+  text-align: center;
+  margin-top: 18%;
+  padding: 40px;
+  border-radius: 20%;
+}
+
+.part_section_yoga {
+  background-color: #f2f2f2e2;
+  padding: 40px;
+  font-size: 20px;
+  margin-top: 18%;
+}
+
+.section_title_yoga {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.program_section_yoga {
+  background-color: #ffffffa6;
+  padding: 40px;
+  margin-top: 18%;
+}
+
+.program_cards_row_yoga {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.program_card_yoga {
+  width: calc(33.33% - 10px);
+  background-color: #f2f2f2a4;
+  height: auto;
+  margin-bottom: 20px;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.program_card_yoga .divimg_yoga {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.program_card_yoga img {
+  width: 100%;
+  height: 300px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  object-fit: cover;
+}
+
+.program_card_yoga h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.program_card_yoga p {
+  text-align: initial;
+}
+
+.mentor_section_yoga {
+  background-color: #f2f2f2a8;
+  padding: 40px;
+}
+
+.mentor_cards_row_yoga {
+  display: flex;
+  justify-content: space-between;
+}
+
+.mentor_card_yoga {
+  width: calc(33.33% - 10px);
+  background-color: #ffffffa4;
+  height: 200px;
+}
+
+.basic {
+  background-color: #f2f2f2ad;
+  text-align: center;
+}
+
+.section_description_yoga {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.section_button_yoga {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.section_button_yoga:hover {
+  background-color: #c4cad1c3;
+  color: #000000;
+}
+
+/* Media Query */
+@media screen and (max-width: 768px) {
   
-  .section_yoga1 {
-    background-color: #f2f2f2ad;
-    text-align: center;
-    margin-top: 18%;
-    padding: 40px;
-    border-radius: 20%;
-  }
-  
-  .part_section_yoga {
-    background-color: #f2f2f2e2;
-    padding: 40px;
-    font-size: 20px;
-    margin-top: 18%;
-  }
-  
-  .section_title_yoga {
-    font-size: 30px;
-    margin-bottom: 20px;
-  }
-  
-  .program_section_yoga {
-    background-color: #ffffffa6;
-    padding: 40px;
-    margin-top: 18%;
-  }
-  
-  .program_cards_row_yoga {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 20px;
-  }
-  
-  .program_card_yoga {
-    width: calc(33.33% - 10px);
-    background-color: #f2f2f2a4;
-    height: 200px;
-  }
-  
-  .mentor_section_yoga {
-    background-color: #f2f2f2a8;
-    padding: 40px;
-  }
-  
-  .mentor_cards_row_yoga {
-    display: flex;
-    justify-content: space-between;
-  }
-  
-  .mentor_card_yoga {
-    width: calc(33.33% - 10px);
-    background-color: #ffffffa4;
-    height: 200px;
-  }
-  
-  .basic {
-    background-color: #f2f2f2ad;
-    text-align: center;
-  }
-  
-  .section_description_yoga {
-    font-size: 20px;
-    margin-bottom: 20px;
-  }
-  
-  .section_button_yoga {
-    padding: 10px 20px;
-    font-size: 16px;
-    background-color: #007bff;
-    color: #ffffff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  
-  .section_button_yoga:hover {
-    background-color: #c4cad1c3;
-    color: #000000;
-  }
-  
-  @media (max-width: 768px) {
-    .container_yoga {
-      padding: 10px;
-    }
-  
-    .section_yoga {
-      padding: 20px;
-    }
-  
-    .program_cards_row_yoga,
-    .mentor_cards_row_yoga {
-      flex-wrap: wrap;
-      justify-content: center;
-    }
-  
-    .program_card_yoga,
-    .mentor_card_yoga {
-      width: calc(50% - 10px);
-    }
-  }
-  .program_card_yoga {
-    width: calc(33.33% - 10px);
-    background-color: #f2f2f2a4;
-    height: auto;
-    margin-bottom: 20px;
-    padding: 20px;
-    text-align: center;
-    border-radius: 10px;
-    overflow: hidden;
-  }
-  
+
   .program_card_yoga .divimg_yoga {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100%;
-  }
-  
-  .program_card_yoga img {
     width: 100%;
-    height: 300px;
-    border-radius: 10px;
-    margin-bottom: 15px;
-    object-fit: cover;
   }
-  
-  .program_card_yoga h3 {
-    font-size: 18px;
-    margin-bottom: 10px;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
+
+  .divimg_yoga {
+    width: 100%;
   }
-  .program_card_yoga p {
-    text-align: initial;
+  .program_cards_row_yoga {
+    flex-direction: column;
   }
+
+  .program_card_yoga {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .container_yoga {
+    padding: 10px;
+  }
+
+  .section_yoga {
+    padding: 20px;
+  }
+
+  .program_cards_row_yoga,
+  .mentor_cards_row_yoga {
+    justify-content: center;
+  }
+
+  .program_card_yoga,
+  .mentor_card_yoga {
+    width: calc(100% - 20px);
+  }
+}
+

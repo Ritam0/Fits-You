@@ -1,6 +1,6 @@
 
 .Home-page-bg {
-  background-image: url('https://images.pexels.com/photos/8861013/pexels-photo-8861013.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+  background-image: url('https://images.pexels.com/photos/40751/running-runner-long-distance-fitness-40751.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -115,8 +115,8 @@
 /* Media Queries */
 
 @media (max-width: 768px) {
-  body {
-    background-image: url('./img/hbmedia.jpg');
+  .Home-page-bg {
+    background-image: url('https://images.pexels.com/photos/5345858/pexels-photo-5345858.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
