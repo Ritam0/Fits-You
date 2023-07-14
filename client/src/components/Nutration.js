@@ -9,8 +9,8 @@ const Nutrition = () => {
       <div className="container_Nutrition">
       <section className="section_Nutrition basic">
         <h2 className="section_title_Nutrition">Basic Nutrition</h2>
-        <p className="section_description_Nutrition">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sollicitudin dui eu lorem aliquam volutpat.</p>
-        <button className="section_button_Nutrition">Start Nutritionitation</button>
+        <h2 className="section_description_Nutrition">“ The first wealth is health. “ – Ralph Waldo Emerson.</h2>
+        <button className="section_button_Nutrition">Start Nutrition</button>
       </section>
         <section className="section_Nutrition"></section>
         <section className="section_Nutrition"></section>

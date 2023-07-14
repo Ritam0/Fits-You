@@ -10,7 +10,7 @@ const Gym = () => {
       <section className="section_Gym basic">
         <h1 className="section_title_Gym">Gym Tranning</h1>
         <h3 className="section_description_Gym">How’d you like to go on a long romantic walk on the treadmill?</h3>
-        <button className="section_button_Gym">Start Your Training Today</button>
+        <button className="section_button_Gym">Start Your Training</button>
       </section>
         <section className="section_Gym"></section>
         <section className="section_Gym"></section>
