@@ -18,7 +18,7 @@
   }
   
   .part_section_yoga {
-    background-color: #f2f2f26e;
+    background-color: #f2f2f2e2;
     padding: 40px;
     font-size: 20px;
   }
@@ -86,7 +86,7 @@
     color: #000000;
   }
   
-  @yogaia (max-width: 768px) {
+  @media (max-width: 768px) {
     .container_yoga {
       padding: 10px;
     }
