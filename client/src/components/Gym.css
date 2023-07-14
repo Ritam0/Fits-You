@@ -12,15 +12,19 @@
       
   }
   
-  .section_Gym {
-    margin-bottom: 20px;
+  .section_Gym1 {
+    background-color: #f2f2f2ad;
+    text-align: center;
+    margin-top: 18%;
     padding: 40px;
+    border-radius: 20%;
   }
   
   .part_section_Gym {
     background-color: #f2f2f297;
     padding: 40px;
     font-size: 20px;
+    margin-top: 18%;
   }
   
   .section_title_Gym {
@@ -31,6 +35,7 @@
   .program_section_Gym {
     background-color: #ffffffa6;
     padding: 40px;
+    margin-top: 18%;
   }
   
   .program_cards_row_Gym {
@@ -129,15 +134,45 @@
     width: 100%;
     height: 300px;
     border-radius: 10px;
+    margin-top: 0px;
     object-fit: cover;
   }
   
-  .program_card_Gym h3 {
+  .program_card_Gym h4 {
     font-size: 18px;
     margin-bottom: 10px;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
+  }
+  .program_card_Gym p {
+    text-align: initial;
+  }
+  .powder_cards_row_Gym {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .powder_card_Gym {
+    width: calc(33.33% - 10px);
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .powder_card_Gym img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+  }
+  
+  .powder_card_Gym .powder_title_Gym {
+    font-size: 18px;
+    margin-bottom: 10px;
   }
   
   

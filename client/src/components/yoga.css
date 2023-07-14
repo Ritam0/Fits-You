@@ -12,15 +12,19 @@
       
   }
   
-  .section_yoga {
-    margin-bottom: 20px;
+  .section_yoga1 {
+    background-color: #f2f2f2ad;
+    text-align: center;
+    margin-top: 18%;
     padding: 40px;
+    border-radius: 20%;
   }
   
   .part_section_yoga {
     background-color: #f2f2f2e2;
     padding: 40px;
     font-size: 20px;
+    margin-top: 18%;
   }
   
   .section_title_yoga {
@@ -31,6 +35,7 @@
   .program_section_yoga {
     background-color: #ffffffa6;
     padding: 40px;
+    margin-top: 18%;
   }
   
   .program_cards_row_yoga {
@@ -140,4 +145,6 @@
     text-overflow: ellipsis;
     white-space: nowrap;
   }
-  
+  .program_card_yoga p {
+    text-align: initial;
+  }
