@@ -1,6 +1,6 @@
 
 .Home-page-bg {
-  background-image: url('https://images.pexels.com/photos/7187891/pexels-photo-7187891.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+  background-image: url('https://images.pexels.com/photos/8861013/pexels-photo-8861013.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -26,7 +26,7 @@
 
 .slogan {
   font-size: 50px;
-  color: #51ff00e2;
+  color: #aeff00;
   font-weight: bolder;
   transition: font-size 0.3s ease, color 0.3s ease, font-family 0.3s ease;
 }
@@ -40,15 +40,21 @@
 .slogan2 h4{
   font-size: 30px;
   border-radius: 10px;
+  padding: 5px;
   font-weight: bold;
-  color: #fff200;
+  background-color: rgba(255, 255, 255, 0.861);
+  color: #009dff;
   transition: font-size 0.3s ease, color 0.3s ease, font-family 0.3s ease;
 }
 
 .slogan h2 {
   font-size: 80px;
-  color: #00ffeefa;
+  color: #fffffffa;
+  background-color: #01eeff9f;
+  padding: 5px;
+  border-radius: 20px;
   font-weight: bolder;
+  font-variant: initial;
   transition: font-size 0.3s ease, color 0.3s ease, font-family 0.3s ease;
 }
 

@@ -36,6 +36,23 @@ const MyProfile = () => {
     callProfile();
   }, []);
 
+  const logoutprofile=async (e)=>{
+    e.preventDefault();
+    try{
+      const res=await fetch("/logout",{
+        method:"GET",
+        headers:{
+          "Cookie":"token"
+        }
+      });
+      window.alert("logged out");
+      navigate("/login");
+    }catch(err){
+      console.error(err);
+    }
+   
+  }
+
   return (
     <div className='mp_bg'>
       <Navbar />
@@ -49,6 +66,8 @@ const MyProfile = () => {
                     <p><strong>Email:</strong> <span className='email_mp'>{userDetails.email}</span></p>
                     </div>
                 </div>
+                <button className='logout_profile' method='GET' onClick={logoutprofile}>Log out</button>
+
             </div>
 
       </form>

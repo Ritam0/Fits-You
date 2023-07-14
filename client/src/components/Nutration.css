@@ -8,13 +8,44 @@
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
-        background-attachment: fixed;
+        background-attachment: fixed; 
       
   }
-  
-  .section_Nutrition {
-    margin-bottom: 20px;
+  .section_Nutrition1 {
+    margin-top: 18%;
     padding: 40px;
+    background-color: #f2f2f27e;
+    text-align: center;
+    border-radius: 30px;
+    
+  }
+  
+  .section_Nutrition2 {
+    margin-top: 250px;
+    padding: 20px;
+    background-color: #f2f2f28b;
+    font-weight: bold;
+    font-size: medium;
+    border-radius: 30px;
+  }
+  .section_Nutrition3 {
+    margin-top: 250px;
+    padding: 20px;
+    background-color: #f2f2f287;
+    font-weight: bold;
+    font-size: medium;
+    border-radius: 30px;
+  }
+  .section_Nutrition4 {
+    margin-top: 250px;
+    padding: 20px;
+    background-color: #f2f2f287;
+    font-weight: bold;
+    font-size: medium;
+    border-radius: 30px;
+  }
+  .section_Nutrition1 h2{
+    font-size: large;
   }
   
   .music_section_Nutrition {

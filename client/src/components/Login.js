@@ -23,14 +23,17 @@ const Login = () => {
         })
       });
       const data=res.json();
-      if(data.status===400 || !data){
-        window.alert("Login Faild!!");
-        console.log("Login Faild!!");
-      }else{
+      console.log(data.status);
+      if(res.status===200 ){
         window.alert("Login Succesfull");
         console.log("Login Succesfull");
-  
         navigate("/");
+        
+      }else{
+        window.alert("Login Faild!!");
+        console.log("Login Faild!!");
+        
+        
       }
     }catch(e){
       console.error(e);
@@ -46,7 +49,7 @@ const Login = () => {
           <input type="email" 
           value={email}
           onChange={(e)=>setEmail(e.target.value)}
-          placeholder="Email" className="input-field_reg" />
+          placeholder="Email" className="input-field_reg" /> 
 
 
           <input type="password" 
@@ -54,9 +57,9 @@ const Login = () => {
           onChange={(e)=>setPassword(e.target.value)}
           placeholder="Password" className="input-field_reg" />
 
-          <div className="sections_reg">
+          {/* <div className="sections_reg">
             <a href="#" className="forgot-password_reg">Forgot Password?</a>
-          </div>
+          </div> */}
 
           <button type="submit" onClick={loginUser} className="submit-btn_reg">Login</button>
 

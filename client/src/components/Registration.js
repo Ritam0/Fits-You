@@ -19,7 +19,7 @@ const Registration = () => {
     name=e.target.name;
     value=e.target.value;
 
-    setUser({...user,[name]:value});
+    setUser({...user,[name]:value}); 
     
   }
 
@@ -38,8 +38,8 @@ const Registration = () => {
         })
       });
       const data=res.json();
-      if(data.status===400 || !data){
-        window.alert("Registration Faild!!");
+      if(res.status===400){
+        window.alert("Registration Faild!! password and confirm password should be same and email should be unique");
         console.log("Registration Faild!!");
       }else{
         window.alert("Registration Succesfull");
@@ -89,7 +89,7 @@ const Registration = () => {
 
         </form>
         <div className="sections_reg">
-          <span className="already-registered_reg">Already Registered? <a href="./login">signin</a></span>
+          <span className="already-registered_reg">Already Registered? <a href='/login'>signin</a></span>
         </div>
       </div>
     </div>

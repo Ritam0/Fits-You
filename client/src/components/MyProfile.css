@@ -2,6 +2,37 @@
     margin-top: 100px;
     margin-right: 800px;
 }
+.logout_profile {
+  /* Button styles */
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  border: none;
+  color: #ffffff;
+  background-color: #00a2ff;
+  cursor: pointer;
+
+  /* Hover effect */
+  transition: background-color 0.3s ease;
+}
+
+.logout_profile:hover {
+  background-color: #ec1111;
+}
+
+/* Additional styles */
+.logout_profile:focus {
+  outline: none;
+  /* Add additional focus styles if desired */
+}
+
+.logout_profile:active {
+  /* Add additional active styles if desired */
+}
 .card_mp {
     width: 700px;
     height: 400px;
