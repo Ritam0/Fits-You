@@ -1,0 +1,121 @@
+.my_profile{
+    margin-top: 100px;
+    margin-right: 800px;
+}
+.logout_profile {
+  /* Button styles */
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  border: none;
+  color: #ffffff;
+  background-color: #00a2ff;
+  cursor: pointer;
+
+  /* Hover effect */
+  transition: background-color 0.3s ease;
+}
+
+.logout_profile:hover {
+  background-color: #ec1111;
+}
+
+/* Additional styles */
+.logout_profile:focus {
+  outline: none;
+  /* Add additional focus styles if desired */
+}
+
+.logout_profile:active {
+  /* Add additional active styles if desired */
+}
+.card_mp {
+    width: 700px;
+    height: 400px;
+    margin: 0 auto;
+    padding: 24px;
+    border-radius: 12px;
+    background: linear-gradient(45deg, #e208ff88, #ffa20196);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  .mp_bg{
+    background-image: url('https://images.pexels.com/photos/1390403/pexels-photo-1390403.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+  
+}
+  .user-details_mp strong{
+    color: black;
+    font-weight: bold;
+    font-size: larger;
+  }
+  .card-title_mp {
+    font-size: 24px;
+    margin-bottom: 16px;
+    color: #00fad9;
+  }
+  
+  .name_mp {
+    color: #00ff11;
+    font-weight: bold;
+    font-size: xx-large;
+  }
+  .name1_mp {
+    font-size: 40px;
+    margin-bottom: 16px;
+    color: #00ffff;
+  }
+  
+  .card_mp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  
+  
+  .userid_mp, .email_mp {
+    color: #c8ff00;
+    font-size: larger;
+    font-weight: 700;
+    font-style: inherit;
+  }
+  
+  .avatar_mp {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+  
+  .avatar_mp img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  @media (max-width: 768px) {
+    .mp_bg{
+   
+      height: 100%;
+    
+  }
+    .my_profile {
+      margin-right: 0;
+    }
+    
+    .card_mp {
+      width: 100%;
+      max-width: 500px;
+    }
+  }
+   
+  
