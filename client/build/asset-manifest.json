@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.642db5ce.css",
+    "main.js": "/static/js/main.727c5aca.js",
+    "static/js/787.c4e7f8f9.chunk.js": "/static/js/787.c4e7f8f9.chunk.js",
+    "static/media/medmusic.mp3": "/static/media/medmusic.dda0cc419500d50db38c.mp3",
+    "static/media/nutration.jpg": "/static/media/nutration.937393192d4c28fe9b94.jpg",
+    "static/media/meditation.jpg": "/static/media/meditation.679018253f2939794030.jpg",
+    "static/media/yoga.jpg": "/static/media/yoga.aed1439806f40766b317.jpg",
+    "static/media/ritam.jpeg": "/static/media/ritam.844d63ad17842094aeba.jpeg",
+    "static/media/bibhab.jpeg": "/static/media/bibhab.a663b3885fa0bc67e271.jpeg",
+    "static/media/logo.png": "/static/media/logo.630114ae5f0d6173c144.png",
+    "static/media/gym.jpg": "/static/media/gym.ead99ba86610665d529d.jpg",
+    "index.html": "/index.html",
+    "main.642db5ce.css.map": "/static/css/main.642db5ce.css.map",
+    "main.727c5aca.js.map": "/static/js/main.727c5aca.js.map",
+    "787.c4e7f8f9.chunk.js.map": "/static/js/787.c4e7f8f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.642db5ce.css",
+    "static/js/main.727c5aca.js"
+  ]
+}
