@@ -4,8 +4,8 @@ import "./About.css";
 import 'bootstrap/dist/css/bootstrap.css';
 import { FaGithub,FaLinkedin } from "react-icons/fa6";
 import { BiLogoGmail } from "react-icons/bi";
-import bibhab from "./img/bibhab.jpeg"
-import ritam from "./img/ritam.jpeg"
+import bibhab from "./img/bibhab.jpg"
+import ritam from "./img/ritam.jpg"
 const AboutUsPage = () => {
   const [activeIndex, setActiveIndex] = useState(null);
 

@@ -19,7 +19,7 @@ const Nutrition = () => {
               <ul>
                 <li>Essential Nutrients: Nutrition provides our bodies with essential nutrients like carbohydrates, proteins, fats, vitamins, and minerals, which are necessary for proper bodily functions.</li>
                 <li>
-Growth and Development: Adequate nutrition supports growth, development, and the formation of healthy bones, muscles, and organs, particularly in children and adolescents.</li>
+                    Growth and Development: Adequate nutrition supports growth, development, and the formation of healthy bones, muscles, and organs, particularly in children and adolescents.</li>
                 <li>Energy and Metabolism: Proper nutrition provides the energy needed for daily activities and bodily functions, ensuring optimal physical and mental performance.</li>
                 <li>Weight Management: Good nutrition plays a crucial role in maintaining a healthy weight and preventing obesity by providing the right balance of calories and nutrients.</li>
                 <li>Immune System Support: A well-balanced diet strengthens the immune system, reducing the risk of infections, illnesses, and chronic diseases.</li>
@@ -38,8 +38,8 @@ Growth and Development: Adequate nutrition supports growth, development, and the
                   <img src="https://images.pexels.com/photos/6210947/pexels-photo-6210947.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="img" />
                   <h3>Grilled Chicken Breast<br /> with Roasted Vegetables - NON VEG</h3>
                   <p>Grilled chicken breast marinated <br />with herbs and spices like <br />rosemary, thyme, and garlic.  <br />
-Accompanied by a medley of roasted <br /> vegetables such as carrots, Brussels <br />sprouts,  and zucchini tossed in olive<br /> oil, salt, and pepper.
-Optional: Drizzle <br />with balsamic glaze for added flavor.</p>
+                    Accompanied by a medley of roasted <br /> vegetables such as carrots, Brussels <br />sprouts,  and zucchini tossed in olive<br /> oil, salt, and pepper.
+                    Optional: Drizzle <br />with balsamic glaze for added flavor.</p>
               </div>
             </div>
 

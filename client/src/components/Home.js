@@ -1,10 +1,10 @@
-import React from 'react'
+import React from 'react';
 import Navbar from "./Navbar";
 import { NavLink } from 'react-router-dom';
 import logo from './img/logo.png';
 import gym from './img/gym.jpg';
 import yoga from './img/yoga.jpg';
-import nutration from './img/nutration.jpg';
+import nutration from './img/nutration.jpeg';
 import meditation from './img/meditation.jpg';
 import 'bootstrap/dist/css/bootstrap.css';
 import './Home.css';
@@ -14,7 +14,7 @@ const Home = () => {
  
   return (
    
-
+    
     <div className='Home-page-bg'>
       <Navbar/>
     <div className="container"> 
