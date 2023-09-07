@@ -40,7 +40,7 @@ const Navbar = () => {
           <li><NavLink className="nav-link" to="/gym">Gym</NavLink></li>
           <li><NavLink className="nav-link" to="/yoga">Yoga</NavLink></li>
           <li><NavLink className="nav-link" to="/meditation">Meditation</NavLink></li>
-          <li><NavLink className="nav-link" to="/nutrition">Nutrition</NavLink></li>
+          <li><NavLink className="nav-link" to="/nutration">Nutrition</NavLink></li>
           <li><NavLink className="nav-link" to="/about">About Us</NavLink></li>
           <li><NavLink className="nav-link" to="/profile">My Profile</NavLink></li>
           <li><NavLink className="nav-link" to="/login">Login</NavLink></li>
